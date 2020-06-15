@@ -1,0 +1,106 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+/*	font-family: font-cua-tui;*/
+	font-family: 'MuseoModerno', cursive;
+}
+
+/*reset css*/
+.wrapper{
+	width: 960px;
+	height: 1150px;
+/*	background: #D8D8D8;*/
+	margin: 0 auto;
+}
+.header{
+	width: 960px;
+	height: 170px;
+/*	background: #00FFF3;*/
+	
+}
+.header .top-bar{
+	width: 960px;
+	height: 53px;
+/*	background: #FF00CE;*/
+	text-align: right;
+/*	padding-top:20px;*/
+	
+}
+
+.top-bar img{
+/*	width: 30px;*/
+	margin-top:20px;
+	
+}
+.header .header-main{
+	width: 960px;
+	height: 117px;
+/*	background: #F0FF00;*/
+	
+}
+.header-main .logo{
+	width: 340px;
+	height: 117px;
+/*	background: #B98A7F;*/
+	float: left;
+	
+}
+
+.header-main .menu{
+	width:620px;
+	height: 117px;
+/*	background: #FF0004;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	margin-left: 45px;
+	margin-top: 15px;
+	width: 92.8%;
+	height: 50px;
+/*	background: #827D96;*/
+	border-top: 1px solid #dee0e1;
+	border-bottom: 1px solid #dee0e1;
+}
+.menu ul li{
+	float: left;
+	height: 35px;
+	width: 100px;
+/*	background: #00FFF3;*/
+	text-align: center;
+	line-height: 35px;
+	margin-top:8px;
+	margin-left: 5px;
+}
+.menu ul li a{
+	font-size:18px;
+	text-decoration: none;
+	color: black;
+/*	background: red;*/
+	display: block;
+	transition-duration: 0.5s;
+	border-radius: 20px;
+}
+.menu ul li a:hover{
+	border-radius: 20px;
+	color: blueviolet;
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	box-shadow: 0px 3px 12px 3px rgba(0,0,0,0.75);
+}
+/*header*/
+.content{
+	width: 960px;
+	height: 885px;
+	background: #B8FF00;
+}
+.footer{
+	width: 960px;
+	height: 95px;
+	background: #FF7E00;
+}
